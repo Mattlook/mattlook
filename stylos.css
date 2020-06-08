@@ -124,7 +124,7 @@ transition: 0.4s linear all;
 /*contenedor de la galeria*//*contenedor de la galeria*/
 .galeria{
 	display: flex;
-	background-image: url(wall3.jpg);
+	background-image: url(wall6.jpg);
 	width: 100%;
 	height: auto;
 	margin: auto;
