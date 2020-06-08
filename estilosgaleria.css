@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+#mainmis{
+	background-image: url(wall3.jpg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 96%;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+}
+
+/*seccion 1*//*seccion 1*//*seccion 1*//*seccion 1*//*seccion 1*//*seccion 1*//*seccion 1*/
+.section1, .section3, .section5{
+	background: linear-gradient(90deg, rgba(197,198,213,1) 0%, rgba(49,175,159,1) 50%, rgba(25,143,96,1) 100%);
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	height: 420px;
+	margin: 15px;
+	border-radius: 15px;
+
+}
+
+/*seccion 02*//*seccion 02*//*seccion 02*//*seccion 02*//*seccion 02*//*seccion 02*/
+
+.section2, .section4, .section6{
+	background: linear-gradient(90deg, rgba(36,36,38,1) 0%, rgba(76,88,113,1) 50%, rgba(64,138,233,1) 100%);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	height: 420px;
+	margin: 15px;
+	border-radius: 15px;
+
+}
+
+/*texto*//*texto*//*texto*//*texto*//*texto*//*texto*//*texto*//*texto*/
+.text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 40%;
+	height: 410px;
+}
+
+.text h2{
+	font-size: 60px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.text p{
+	font-size: 50px;
+	color: #fff;
+	text-align: justify;
+
+}
+
+/*imagenes*//*imagenes*//*imagenes*//*imagenes*//*imagenes*//*imagenes*//*imagenes*/
+.image{
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: justify;
+	width: 35%;
+	height: 315px;
+	border-radius: 15px;
+}
+
+.image img{
+	width: 96%;
+	height: 300px;
+	border-radius: 15px; 
+}
+
+/*texto*//*seccion 02*//*texto*//*seccion 02*//*texto*//*seccion 02*//*texto*//*seccion 02*/
+
+@media screen and (max-width: 800px){
+	#mainmis{
+		width: 96%;
+		height: auto;
+	}
+	.section1, .section2, .section3, .section4, .section5, .section6{
+		flex-direction: column;
+		width: 96%;
+		height: auto;
+		margin: 15px;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.text{
+		width: 96%;
+		height: auto;
+	}
+	.text h2{
+		font-size: 20px;
+		margin-bottom: 10px;
+
+	}
+	.text p{
+		font-size: 17px;
+	}
+	.image{
+		width: 96%;
+		height: auto;
+		margin-bottom: 15px;
+	}
+	.image img{
+		width: 96%;
+		height: auto;
+		margin-top: 10px;
+	}
+	
+}
+
+
+
+
+
+

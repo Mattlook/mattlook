@@ -1,0 +1,359 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #fff;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 96%;
+	height: 330px;
+	background: -webkit-linear-gradient(3deg, rgb(43, 53, 59), rgb(20, 85, 143));
+	margin: auto;
+}
+header .logo-cia{
+	display: flex;
+	width: 20%;
+	height: 200px;
+	padding: 15px;
+	justify-content: center;
+	align-items: center;
+}
+.logo-cia img{
+	width: 170px;
+	height: 130px;
+	border-radius: 12px;
+
+}
+
+/*navegador*//*navegador*//*navegador*//*navegador*/
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background: -webkit-linear-gradient(3deg, rgb(43, 53, 59), rgb(20, 85, 143));
+/*Estilo para degradados*/
+    overflow: hidden; 
+    width: 100%;
+    height: 108px;
+}
+ 
+
+/*Estilo para lista desordenada*/
+nav ul{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+/*Bordes redondeados para los elementos de la lista*/
+nav ul li{
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+    
+}
+/*Sombras al posicionar el mouse por encima de los elementos*/
+nav ul li:hover{
+    box-shadow: 1px -1px 0px #888;
+    border: 1px solid #e3e3e3;
+}
+/*enlaces del nvegador*//*enlaces del nvegador*//*enlaces del nvegador*/
+nav ul li a{
+    padding: 8px;
+    font-family: comic sans;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+
+/*transiciones*//*transiciones*//*transiciones*//*transiciones*/
+-webkit-transition: 0.4s linear all;
+-moz-transition: 0.4s linear all;
+-o-transition: 0.4s linear all;
+transition: 0.4s linear all;
+}
+
+/*contenedor principal*//*contenedor principal*//*contenedor principal*/
+#main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: yellow;
+	width: 96%;
+	margin: auto;
+}
+
+/*contenedor de la portada*//*contenedor de la portada*//*contenedor de la portada*/
+
+
+.portada{
+	background: #000;
+	display: flex;
+	width: 100%;
+	height: 700px;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+
+}
+/*foto de la portada*//*foto de la portada*//*foto de la portada*/
+.fotoportada{
+	width: 100%;
+	height: 700px;
+	opacity: .9;
+}
+
+.contenido{
+	width: 100%;
+	height: auto;
+
+}
+
+/*contenedor de la galeria*//*contenedor de la galeria*/
+.galeria{
+	display: flex;
+	background-image: url(wall3.jpg);
+	width: 100%;
+	height: auto;
+	margin: auto;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 50px;
+
+}
+
+.foto-contenedor{
+	display: flex;
+	flex-direction: column;
+	width: 23%;
+	height: 400px;
+	background: none;
+	margin:20px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 14px;
+
+}
+.foto-contenedor a{
+	display: flex;
+	background: #fff;
+	width: 100%;
+	height: 320px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 14px;
+}
+
+.foto-contenedor .img{
+	width: 95%;
+	height: 310px;
+
+}
+
+.foto-contenedor .img:hover{
+	background: red;
+	opacity: .2;
+}
+
+/*contenedor articulo*//*contenedor articulo*//*contenedor articulo*/
+.articulo{
+	background: yellow;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 75px;
+	margin: auto;
+}
+
+.article{
+	background: red;
+	display: flex;
+	width: 100%;
+	height: 70px;
+	align-items: center;
+	justify-content: center;
+
+}
+.article p{
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	
+}
+
+/*contenedor para la ultima foto*//*contenedor para la ultima foto*/
+.novedades{
+	display: flex;
+	background: #414141;
+	width: 100%;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+}
+.content-img{
+	display: flex;
+	background: #C0C0C0;
+	width: 98%;
+	height: 480px;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.content-img img{
+	width: 98%;
+	height: 460px;
+	opacity: .7
+
+}
+
+/*pie de página*//*pie de página*//*pie de página*//*pie de página*/
+footer{
+	display: flex;
+	flex-direction: column;
+    background: #414141;
+    width: 96%;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 96%;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+  
+}
+
+.content-foo{
+    text-align: center;
+
+}
+
+.content-foo h4{
+    color: #ccc;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.final{
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0 0 0;
+    color: #ccc;
+}
+
+@media screen and (max-width: 800px) {
+	
+	header{
+		width: 96%;
+		height: auto;
+		margin: auto;
+		align-items: center;
+		justify-content: center;
+	}
+	.logo-cia{
+	width: 120px;
+	height: auto;
+	padding: 15px;
+}
+	.logo-cia img{
+	width: 120px;
+	height: auto;
+
+}
+	nav{
+		width: 96%;
+		height: auto;
+		margin: auto;
+	}
+	nav ul{
+		display: flex;
+		flex-flow: wrap;
+	}
+
+	#main {
+		width: 96%;
+		flex-flow: wrap;
+	}
+	
+	.portada{
+		width: 96%;
+		height: 300px;
+	}
+	.fotoportada{
+		width: 96%;
+		height: 300px;
+	}
+	.galeria{
+		flex-flow: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.foto-contenedor{
+		width: 96%;
+	}
+	.novedades{
+		width: 96%;
+		height: 300px;
+		justify-content: center;
+		align-items: center;
+	}
+	.content-img{
+		width: 96%;
+		height: 285px;
+		justify-content: center;
+		align-items: center;
+	}
+	.content-img img{
+		width: 96%;
+		height: 265px;
+	}
+	footer{
+		width: 96%;
+		height: auto;
+		flex-direction: column;
+	}
+	.contenedor-footer{
+		width: 96%;
+		height: auto;
+		flex-direction: column;
+		}
+	.content-foo{
+		width: 96%;
+		height: auto;
+	}
+	.content-foo h4{
+		font-size: 10px;
+	}	
+	.content-foo p{
+		font-size: 10px;
+	}
+}
+	

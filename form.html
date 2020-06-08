@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="stylos.css">
+    <link rel="stylesheet" href="estilosform.css">
+	<title>Ciudad de la Moda</title>
+</head>
+<body>
+	<header>
+    <div class="logo-cia">
+      <img src="city.jpeg">
+    </div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li><a href="mision.html">Misión y visión</a></li>
+				<li><a href="galeria.html">Galería</a></li>
+				<li><a href="form.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="contenedor-form">
+		 <section id="formulario"> 
+            <form name="frmregistro" method="post" action="mailto:mateoarrival@gmail.com"> 
+                <h1>FORMULARIO DE REGISTRO</h1> 
+                <label id="label">Complete el formulario con sus datos</label> 
+                <p id="linea">&nbsp;</p> 
+                <label id="label">Nombres y apellidos 
+                    <input name="txtnombres" type="text"  
+                           id="caja" size="60"  
+                           placeholder="ingrese datos completos" required/> 
+                </label> 
+                <label id="label">Dni  
+                    <input type="text" id="caja" name="txtdni"  
+                           size="60" placeholder="8 caracteres" required=> 
+                </label> 
+                <label id="label">Telefono  
+                    <input type="tel" id="caja" size="60" name="txtfono"/> 
+                </label> 
+                <label id="label">Estudios realizados </label> 
+                <label id="label"> 
+                    <input type="checkbox" name="chkprimaria"  
+                           checked="checked"/> Primaria 
+                </label> 
+                <label id="label"> 
+                    <input type="checkbox" name="chksecundaria" /> Secundaria  
+                </label> 
+                <label id="label"> 
+                    <input type="checkbox" name="chktecnico" /> Técnico  
+                </label> 
+                <label id="label"> 
+                    <input type="checkbox" name="chkuniversitario" /> Universitario 
+                </label> 
+                <br/> 
+                <label id="label">Estado civil</label> 
+                <label id="label">  
+                    <input type="radio" name="btnestado" value="s"  
+                           checked="checked"/> Soltero 
+                </label> 
+                <label id="label">  
+                    <input type="radio" name="btnestado" value="c" /> Casado 
+                </label> 
+                <label id="label">  
+                    <input type="radio" name="btnestado" value="v" /> Viudo 
+                </label> 
+                <label id="label">  
+                    <input type="radio" name="btnestado" value="d" /> Divorciado 
+                </label> 
+                <br/> 
+                <label id="label">Provincia</label> 
+                <input type="text" name="txtprovincia" list="provincias"/> 
+                <datalist id="provincias"> 
+                    <option value="Lima" /> 
+                    <option value="Arequipa" /> 
+                    <option value="Tacna" /> 
+                    <option value="Trujillo" /> 
+                    <option value="Huancayo" /> 
+                </datalist> 
+                <label id="label">Correo electronico  
+                    <input type="email" id="caja" size="60" name="txtemail"/> 
+                </label>         
+                <label id="label">Color de preferencia  
+                    <input type="color" name="txtcolor"/> 
+                </label> 
+                <input type="submit" value="registrar"> 
+                <input type="reset" value="limpiar"> 
+            </form> 
+        </section> 
+	</main>
+	<footer>
+        <div class="contenedor-footer">
+           <div class="content-foo">
+               <h4>Celular</h4>
+               <p>943893030</p>
+           </div>
+           <div class="content-foo">
+               <h4>Email</h4>
+               <p>mateoarrival@gmail.com</p>
+           </div>
+           <div class="content-foo">
+               <h4>Ubicación</h4>
+               <p>Lima-Perú</p>
+           </div>
+       </div>
+       <h2 class="final">&copy; Daniel, Paolo, Celeste, Fisher, Juan, María, Juan M</h2>
+   </footer>
+</body>
+</html>
